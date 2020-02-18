@@ -2,13 +2,44 @@
 <html>
 <head>
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700&display=swap" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="menu col-xs-8">
+        <ul>
+          <li><a href="/">Welcome</a></li>
+          <li><a href="portfolio">Portfolio</a></li>
+          <li><a href="https://medium.com/about-codecademy">Blog</a></li>
+          <li><a href="about">About</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="name col-xs-4">
+        <h1>Ben Lopata</h1>
+      </div>
+    </div>
+  </div>
+</div>
 <%= yield %>
-
+ <div class="footer">
+  <div class="container">
+    <ul class="social_media">
+      <li><a class="github" href="#">github</a></li>
+      <li><a class="linkedin" href="#">linkedin</a></li>
+      <li><a class="twitter" href="#">twitter</a></li>
+    </ul>
+    <p>&copy; 2020 Ben Lopata</p>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
