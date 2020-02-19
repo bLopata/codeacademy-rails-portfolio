@@ -16,7 +16,7 @@ html {
   padding: 0 200px 0 280px;
   width: 100%;
   margin-right: auto;
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .main {
@@ -55,6 +55,7 @@ a.btn {
 .menu li a {
   color: #000;
 }
+
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -106,7 +107,6 @@ a.btn {
   background-image: url(/assets/linkedin.svg);
   background-position: center center;
 }
-
 
 .twitter {
   background-image: url(/assets/twitter.svg);
@@ -279,10 +279,9 @@ a.btn:hover,
 }
 
 #about-col {
-  overflow:hidden;
+  overflow: hidden;
   float: left;
   width: 50%;
   margin: 0 50px 0 50px;
   object-fit: cover;
 }
-
